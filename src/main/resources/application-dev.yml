@@ -11,3 +11,8 @@ spring:
     properties:
       hibernate:
         format_sql: true
+  config:
+    activate:
+      on-profile: dev
+    import:
+      - submodule/security/database.yml
