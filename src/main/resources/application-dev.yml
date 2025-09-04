@@ -15,4 +15,4 @@ spring:
     activate:
       on-profile: dev
     import:
-      - submodule/security/database.yml
+      - submodule/infrastructure/database.yml
