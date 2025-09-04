@@ -12,4 +12,4 @@ spring:
     activate:
       on-profile: prod
     import:
-      - submodule/infrastructure/database.yml
+      - classpath:submodule/infrastructure/database.yml
