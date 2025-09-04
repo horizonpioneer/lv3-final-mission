@@ -76,7 +76,6 @@ jobs:
 
       - name: Docker Compose Pull & Up
         run: |
-          cd backend
           docker compose -f config/docker-compose-dev.yml pull
           docker compose -f config/docker-compose-dev.yml up -d
           echo "docker compose-dev up"
